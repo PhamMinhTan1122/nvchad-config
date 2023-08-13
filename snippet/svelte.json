@@ -1,0 +1,37 @@
+{
+  "h1": {
+    "prefix": "h1",
+    "body": [
+      "<h1>$1</h1>"
+    ],
+    "description": "h1_in_Svelte"
+  },
+  "h2": {
+    "prefix": "h2",
+    "body": [
+      "<h2>$1</h2>"
+    ],
+    "description": "h2_in_Svelte"
+  },
+  "import": {
+    "prefix": "import",
+    "body": [
+      "import ${1: MyImportName} from \"$0\""
+    ],
+    "description": "import file or module in Svelte"
+  },
+  "code revealjs in Svelte": {
+    "prefix": "s-code",
+    "body": [
+      "<pre>",
+      "  <code data-trim data-noescape data-line-numbers=${1:\"1|2-3|4,6-10\"} data-ln-start-from=${2:\"1,2..\"}>",
+      "  {'$0'}",
+      "  </code>",
+      "</pre>"
+    ],
+    "description": "code revealjs in Svelte"
+  }
+
+}
+
+
