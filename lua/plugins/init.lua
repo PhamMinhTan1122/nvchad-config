@@ -15,6 +15,16 @@ local default_plugins = {
     end,
   },
   {
+    "andweeb/presence.nvim",
+    lazy = false,
+    config = function()
+      require("presence").setup({
+        auto_update = true,
+        enable_line_number = true,
+      })
+    end
+  },
+  {
     'iamcco/markdown-preview.nvim',
     cmd = {'MarkdownPreview', 'MarkdownPreviewStop'},
     lazy = false,
