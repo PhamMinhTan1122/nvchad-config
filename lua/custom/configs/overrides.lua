@@ -13,7 +13,8 @@ M.treesitter = {
     "markdown",
     "markdown_inline",
     "svelte",
-    "dart"
+    "dart",
+    "python"
   },
   indent = {
     enable = true,
@@ -42,6 +43,10 @@ M.mason = {
     "clang-format",
     "svelte-language-server",
     "dart-debug-adapter",
+    "pyright",
+    "mypy",
+    "ruff",
+    "black"
   },
 }
 
