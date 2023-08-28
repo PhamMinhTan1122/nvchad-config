@@ -5,7 +5,7 @@ local default_plugins = {
   "nvim-lua/plenary.nvim",
 
   -- nvchad plugins
-  { "NvChad/extensions", branch = "v2.0" },
+  -- { "NvChad/extensions", branch = "v2.0" },
 
   {
     "NvChad/base46",
@@ -14,16 +14,16 @@ local default_plugins = {
       require("base46").load_all_highlights()
     end,
   },
-  {
-    "andweeb/presence.nvim",
-    lazy = false,
-    config = function()
-      require("presence").setup({
-        auto_update = true,
-        enable_line_number = true,
-      })
-    end
-  },
+  -- {
+  --   "andweeb/presence.nvim",
+  --   lazy = false,
+  --   config = function()
+  --     require("presence").setup({
+  --       auto_update = true,
+  --       enable_line_number = true,
+  --     })
+  --   end
+  -- },
   {
     'iamcco/markdown-preview.nvim',
     cmd = {'MarkdownPreview', 'MarkdownPreviewStop'},
